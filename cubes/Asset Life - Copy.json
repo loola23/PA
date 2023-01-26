@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"Asset Life - Copy",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Asset Types')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Asset Life')"
+		}
+	],
+	"Views@Code.links":[]
+}
