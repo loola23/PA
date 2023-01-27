@@ -1,0 +1,31 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+OldCubeLogChanges = CUBEGETLOGCHANGES('Capital');
+CUBESETLOGCHANGES('Capital', 0);
+CellPutN(20000,'Capital','Massachusetts','20','1200 Furniture','2022','Budget','Purchase Cost');
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#CellPutN(KILOS,'Ingresos',pVersion,Tiempo,Cliente,Material,pMetric);
+
+#CellPutN(23000,'Capital','Massachusetts','5','1200 Furniture','2020','Budget','Purchase Cost');
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+CUBESETLOGCHANGES('Capital', OldCubeLogChanges);
+#endregion

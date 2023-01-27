@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"TEST_ERROR",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"TEST_ERROR.ti",
+	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"Version",
+			"Prompt":"",
+			"Value":"Budget",
+			"Type":"String"
+		},
+		{
+			"Name":"pTime",
+			"Prompt":"",
+			"Value":"2020",
+			"Type":"String"
+		},
+		{
+			"Name":"Capital",
+			"Prompt":"",
+			"Value":"Purchase Cost",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

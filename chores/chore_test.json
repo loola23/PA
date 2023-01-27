@@ -1,0 +1,20 @@
+{
+	"@type":"Chore",
+	"Name":"chore_test",
+	"StartTime":"2022-07-08T18:41:52Z",
+	"DSTSensitive":false,
+	"Active":true,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P2DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('Acquire_IS')"
+			}
+		}
+	]
+}
